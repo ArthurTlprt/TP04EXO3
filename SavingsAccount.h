@@ -8,7 +8,9 @@
 #ifndef SAVINGSACCOUNT_H
 #define	SAVINGSACCOUNT_H
 
-class SavingsAccount {
+#include "BankAccount.h"
+
+class SavingsAccount : public BankAccount{
 public:
     SavingsAccount();
     SavingsAccount(const SavingsAccount& orig);

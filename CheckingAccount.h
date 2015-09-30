@@ -9,9 +9,8 @@
 #define	CHECKINGACCOUNT_H
 
 #include "BankAccount.h"
-#include "CheckingAccount.h"
 
-class CheckingAccount {
+class CheckingAccount : public BankAccount{
 public:
     CheckingAccount();
     CheckingAccount(const CheckingAccount& orig);
