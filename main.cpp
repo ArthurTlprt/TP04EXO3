@@ -6,6 +6,9 @@
  */
 
 #include <cstdlib>
+#include "BankAccount.h"
+#include "CheckingAccount.h"
+#include "SavingsAccount.h"
 
 using namespace std;
 
