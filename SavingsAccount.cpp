@@ -10,6 +10,14 @@
 SavingsAccount::SavingsAccount() {
 }
 
+void SavingsAccount::setAnnualInterestRate(float annualInterestRate) {
+    this->annualInterestRate = annualInterestRate;
+}
+
+float SavingsAccount::getAnnualInterestRate() const {
+    return annualInterestRate;
+}
+
 SavingsAccount::SavingsAccount(const SavingsAccount& orig) {
 }
 

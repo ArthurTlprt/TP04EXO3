@@ -16,11 +16,18 @@ public:
     BankAccount();
     BankAccount(const BankAccount& orig);
     virtual ~BankAccount();
+    void deposit(float amount);
+    void withdrawal(float amount);
+    void setBalance(float balance);
+    float getBalance() const;
+    void setOwner(string owner);
+    string getOwner() const;
+    void setNumber(int number);
+    int getNumber() const;
 private:
     int number;
     string owner;
-    
-    
+    float balance;
 };
 
 #endif	/* BANKACCOUNT_H */

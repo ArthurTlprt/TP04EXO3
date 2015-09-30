@@ -13,8 +13,11 @@ public:
     SavingsAccount();
     SavingsAccount(const SavingsAccount& orig);
     virtual ~SavingsAccount();
+    void depositAnnualInterest();
+    void setAnnualInterestRate(float annualInterestRate);
+    float getAnnualInterestRate() const;
 private:
-
+    float annualInterestRate;
 };
 
 #endif	/* SAVINGSACCOUNT_H */

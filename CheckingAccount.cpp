@@ -10,6 +10,14 @@
 CheckingAccount::CheckingAccount() {
 }
 
+void CheckingAccount::setOverdraftLimit(float overdraftLimit) {
+    this->overdraftLimit = overdraftLimit;
+}
+
+float CheckingAccount::getOverdraftLimit() const {
+    return overdraftLimit;
+}
+
 CheckingAccount::CheckingAccount(const CheckingAccount& orig) {
 }
 
